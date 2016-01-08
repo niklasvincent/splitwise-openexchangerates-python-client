@@ -1,12 +1,19 @@
 splitwise-openexchangerates-python-client
 =========================================
 
-This package provides integration with [Splitwise](https://splitwise.com/), an expense sharing platform.
+This package provides integration with `Splitwise <https://splitwise.com/>`_, an expense sharing platform.
 
-It seamlessly converts the [Splitwise](https://splitwise.com/) expenses to a common currently (GBP by default) using [Open Exchange Rates](https://openexchangerates.org/).
+It seamlessly converts the `Splitwise <https://splitwise.com/>`_ expenses to a common currently (GBP by default) using `Open Exchange Rates <https://openexchangerates.org/>`_.
 
 Example Usage
 -------------
+
+Install using PIP:
+
+.. code:: python
+
+    pip install git+https://github.com/nlindblad/splitwise-openexchangerates-python-client.git
+
 
 .. code:: python
 
