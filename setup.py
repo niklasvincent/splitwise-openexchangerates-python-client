@@ -16,7 +16,7 @@ setup(
     platforms=['linux'],
     packages=find_packages(exclude=['tests*']),
     include_package_data=True,
-    install_requires=[],
+    install_requires=['oauth2'],
     extras_require={},
     # See http://pypi.python.org/pypi?%3Aaction=list_classifiers
     classifiers=[
