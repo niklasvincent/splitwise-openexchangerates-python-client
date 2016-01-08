@@ -8,6 +8,8 @@ It seamlessly converts the [Splitwise](https://splitwise.com/) expenses to a com
 Example Usage
 -------------
 
+.. code:: python
+
     from splitwise.openexchangerate import OpenExchangeRatesClient
     from splitwise.client import Splitwise
 
