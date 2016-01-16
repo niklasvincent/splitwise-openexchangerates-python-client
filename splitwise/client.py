@@ -8,7 +8,7 @@ import urllib
 import urllib2
 import urlparse
 
-import model
+from model import Category, Expense
 
 
 class Splitwise(object):
