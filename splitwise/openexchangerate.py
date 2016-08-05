@@ -43,9 +43,12 @@ class OpenExchangeRatesClient(object):
 
     def _fromApi(self, url):
         """Retrieve from API"""
-        req = urllib2.Request(url = url)
-        f = urllib2.urlopen(req)
-        return f.read()
+        try:
+            req = urllib2.Request(url = url)
+            f = urllib2.urlopen(req)
+            return f.read()
+        except Exception as e:
+            print "Could not get exchange rate: %s, %s" % (url, e)
 
     def _conversionsForDate(self, date):
         """Retrieve currency conversions for date"""
